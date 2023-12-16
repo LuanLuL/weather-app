@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+  box-sizing: border-box;
+  background: "#F6F6F6";
+}
+
+.body-weatherApp {
+  padding: 30px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #86283d;
+}
+
+.container-weatherApp {
+  position: relative;
+  width: 400px;
+  height: 105px;
+  background-color: #efeced;
+  padding: 28px 32px;
+  overflow: hidden;
+  border-radius: 18px;
+  font-family: "Roboto", sans-serif;
+  transition: 0.6s ease-out;
+}
+
+.fadeIn {
+  animation: 0.5s fadeIn forwards;
+  animation-delay: 0.5s;
+}
+
+@keyframes fadeIn {
+  to {
+    scale: 1;
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .container-weatherApp {
+    height: 130px;
+  }
+}

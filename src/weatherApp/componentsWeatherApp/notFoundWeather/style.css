@@ -1,0 +1,18 @@
+.notFound-weatherApp{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.notFound-weatherApp img{
+    width: 70%;
+}
+
+.notFound-weatherApp p{
+    color: #86283D;
+    font-size: 22px;
+    font-weight: 500px;
+    margin-top: 12px;
+}
+
+
